@@ -19,10 +19,10 @@ const databaseConnection = new sqlite3.Database('./database.sqlite', (error) => 
 databaseConnection.serialize(() => {
     // Creating a table called 'users'
     // The table has:
-    // - id: a unique number for each user that increases automatically via autoincrement constraint
-    // - name: the user's name is set not null as we require some value to be present in entry data for column name
-    // - email: the user's email and should be unique and is set null as we require some value to be present in entry data for column email
-    // - age: the user's age 
+    // id: a unique number for each user that increases automatically via autoincrement constraint
+    // name: the user's name is set not null as we require some value to be present in entry data for column name
+    // email: the user's email and should be unique and is set null as we require some value to be present in entry data for column email
+    // age: the user's age 
     databaseConnection.run(`
     CREATE TABLE IF NOT EXISTS users (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
