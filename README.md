@@ -5,7 +5,7 @@ This is a simple REST API for managing user data, built with Node.js, Express.js
 1.Clone the Repository :<br>
 -> git clone https://github.com/SyedAhmedAliRaza/User-Management-REST-API.git<br>
 -> cd User-Management-REST-API <br> 
-2.Install Dependencies :<br>  
+2.Install Dependencies : 
 -> npm install<br>  
 3.Run the API : <br>
 -> node index.js <br>
