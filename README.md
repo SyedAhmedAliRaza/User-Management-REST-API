@@ -1,7 +1,7 @@
-## User Management REST API 🚀
-# 📖 Project Description :
+# User Management REST API 🚀
+## 📖 Project Description :
 This is a simple REST API for managing user data, built with Node.js, Express.js, and SQLite. It allows you to perform CRUD operations (Create, Read, Update, Delete) on user records, which include id, name, email, and age.
-# 🛠️ How to Install and Run the Project :
+## 🛠️ How to Install and Run the Project :
 1.Clone the Repository :
 -> git clone https://github.com/SyedAhmedAliRaza/User-Management-REST-API.git
 -> cd User-Management-REST-API
@@ -11,9 +11,9 @@ This is a simple REST API for managing user data, built with Node.js, Express.js
 -> node index.js
 4.Test the API:
 -> Use Postman
-# 💾 Database Used :
+## 💾 Database Used :
 -> SQLite database has been used.
-# 🌐 List of Available Routes with Examples :
+## 🌐 List of Available Routes with Examples :
 1. POST /users :
 http://localhost:3000/users - "Content-Type: application/json" - '{"name":"Ali Raza","email":"ali.raza51214@gmail.com","age":24}'
 2. POST /users :
