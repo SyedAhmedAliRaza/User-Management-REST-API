@@ -10,7 +10,7 @@ This is a simple REST API for managing user data, built with Node.js, Express.js
 3.Run the API : <br>
 -> node index.js <br>
 4.Test the API: <br>
--> Use Postman  <br>
+-> Use Postman <br>
 ## 💾 Database Used : <br>
 -> SQLite database has been used. <br>
 ## 🌐 List of Available Routes with Examples :<br>
